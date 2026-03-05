@@ -25,7 +25,7 @@ public class ConfigReader {
 	  {
 		  return properties.getProperty(key);
 	  }
-	
+	 // in a main branch 1
 	  
 	  public int getIntProperty(String key)
 	  {
