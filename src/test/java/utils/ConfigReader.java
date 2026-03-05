@@ -25,7 +25,7 @@ public class ConfigReader {
 	  {
 		  return properties.getProperty(key);
 	  }
-	// in a madhuri branch
+	// in a madhuri branch1
 	  
 	  public int getIntProperty(String key)
 	  {
