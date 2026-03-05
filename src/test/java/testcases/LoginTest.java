@@ -57,7 +57,7 @@ public class LoginTest extends BaseClass{
 		.when()
 			.post(Routes.AUTH_LOGIN)
 		.then() 
-			.log().body()
+//			.log().body()
 			.statusCode(201) // Expecting 401 for unauthorized access
 			.body("token", notNullValue()); // Validate the response token should be null
 		
